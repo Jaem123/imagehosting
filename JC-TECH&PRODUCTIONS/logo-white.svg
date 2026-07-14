@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 512">
+  <defs>
+    <linearGradient id="bracketGrad" x1="144" y1="156" x2="360" y2="356" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="40%"  stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="ruleGrad" x1="0" y1="172" x2="0" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <g id="icon">
+    <line x1="144" y1="156" x2="248" y2="156" stroke="#ffffff" stroke-width="6" stroke-linecap="square"/>
+    <line x1="144" y1="156" x2="144" y2="260" stroke="#ffffff" stroke-width="6" stroke-linecap="square"/>
+    <line x1="256" y1="356" x2="360" y2="356" stroke="#ffffff" stroke-width="6" stroke-linecap="square"/>
+    <line x1="360" y1="252" x2="360" y2="356" stroke="#ffffff" stroke-width="6" stroke-linecap="square"/>
+    <text x="252" y="257"
+      font-family="Georgia,'Times New Roman',serif"
+      font-style="italic" font-weight="bold" font-size="112" fill="#ffffff"
+      dominant-baseline="central" text-anchor="middle" letter-spacing="-1">JC</text>
+  </g>
+
+  <line x1="430" y1="172" x2="430" y2="340" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="square"/>
+
+  <g id="wordmark">
+    <text x="462" y="258" font-family="-apple-system,Helvetica,Arial,sans-serif" font-weight="700" font-size="52" fill="#ffffff" letter-spacing="1">TECH</text>
+    <text x="462" y="308" font-family="-apple-system,Helvetica,Arial,sans-serif" font-weight="300" font-size="28" fill="rgba(255,255,255,0.65)" letter-spacing="5">&amp; PRODUCTIONS</text>
+  </g>
+</svg>
